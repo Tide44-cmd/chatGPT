@@ -9,7 +9,7 @@ while True:
   completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[
-      {"role": "system", "content": 'Senior software engineer who is an expert in python and give detailed guidance and code examples'},
+      {"role": "system", "content": 'Senior software engineer who is an expert in python and gives detailed guidance and code examples'},
       {"role": "assistant", "content": response},
       {"role": "user", "content": ask}
     ]
